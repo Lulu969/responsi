@@ -1,0 +1,99 @@
+body {
+    background-color: #FEFBF6;
+    margin: 2px;
+}
+
+text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    font-family: "Shadows Into Light", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.texto {
+    color: #000000;
+}
+
+h3 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik Vinyl", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #8CB9BD;
+    padding: 0px;
+}
+
+span {
+    background: #ECB159;
+    color: #000000;
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    background-color: #bec2d6;
+    padding: 0px;
+    justify-content: space-between;
+    background: #B67352;
+    padding: 0.25rem;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.menu a {
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+menu a:hover {
+
+    background-color: rgb(204, 204, 231);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    background-color: #B67352;
+    margin: 0px;
+    padding: 0px;
+}
